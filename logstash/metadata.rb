@@ -12,7 +12,7 @@ version          '0.11.3'
   supports os
 end
 
-%w(build-essential runit git ant java logrotate python ark curl).each do |ckbk|
+%w(build-essential runit git java logrotate python ark curl).each do |ckbk|
   depends ckbk
 end
 
