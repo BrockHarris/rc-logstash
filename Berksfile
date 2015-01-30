@@ -2,7 +2,7 @@ source "https://supermarket.getchef.com"
 
 # metadata
 
-cookbook 'tabula_rasa', git: 'https://github.com/shlomoswidler/tabula_rasa.git'
+#cookbook 'tabula_rasa', git: 'https://github.com/shlomoswidler/tabula_rasa.git'
 
 # until https://github.com/elasticsearch/cookbook-elasticsearch/pull/230
 cookbook 'elasticsearch', '~> 0.3', git:'https://github.com/racker/cookbook-elasticsearch.git'
