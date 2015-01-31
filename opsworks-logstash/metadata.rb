@@ -8,4 +8,4 @@ version          '0.4.1'
 
 depends 'logstash', '~> 0.11'
 depends 'java',     '~> 1.29.0'
-depends 'vagrant', '~> 0.2.2'
+#depends 'vagrant', '~> 0.2.2'
