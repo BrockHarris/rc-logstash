@@ -7,5 +7,5 @@ long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.4.1'
 
 depends 'logstash', '~> 0.11'
-depends 'java',     '~> 1.29.0'
+#depends 'java',     '~> 1.29.0'
 
