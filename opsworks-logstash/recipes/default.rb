@@ -27,9 +27,6 @@
 # OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#node.default['java']['jdk_version'] = '7'
-include_recipe "java"
-
 name = node['opsworks_logstash']['instance_name']
 
 # Install logstash
@@ -52,3 +49,5 @@ end
 logstash_pattern name do
   action :create
 end
+
+include_recipe "java"
