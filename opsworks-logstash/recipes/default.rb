@@ -27,15 +27,8 @@
 # OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-node.default['java']['jdk_version'] = '7'
-include_recipe 'java'
-
-#node['vagrant']['url']
-#node['vagrant']['checksum']
-
-#node.set['vagrant']['plugins'] = ["vagrant-omnibus", {"name" => "vagrant-berkshelf", "version" => "1.2.0"}]
-
-#include_recipe 'vagrant', '~> 0.2.2'
+#node.default['java']['jdk_version'] = '7'
+include_recipe "java"
 
 name = node['opsworks_logstash']['instance_name']
 
