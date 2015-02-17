@@ -30,6 +30,9 @@
 node.default['java']['jdk_version'] = '6'
 include_recipe 'java'
 
+include_recipe 'nginx::default'
+
+
 name = node['opsworks_logstash']['instance_name']
 
 # Install logstash

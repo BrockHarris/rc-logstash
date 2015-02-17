@@ -8,4 +8,5 @@ version          '0.4.1'
 
 depends 'logstash', '~> 0.11'
 depends 'java'
+depends 'nginx'
 
